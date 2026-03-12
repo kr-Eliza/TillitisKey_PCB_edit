@@ -4096,7 +4096,7 @@
 		(descr "QFN, 48 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U6"
-			(at 0.154234 -4.847648 225)
+			(at 0.154234 -4.847648 45)
 			(layer "F.SilkS")
 			(uuid "b969259e-5a27-473f-ab73-879142eda2ac")
 			(effects
@@ -4107,7 +4107,7 @@
 			)
 		)
 		(property "Value" "ICE40UP5K-SG48ITR"
-			(at 0 4.800001 225)
+			(at 0 4.800001 45)
 			(layer "F.Fab")
 			(uuid "195e88b7-1a97-4358-86dc-ad31dd2f1012")
 			(effects
@@ -4118,7 +4118,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b0f82f75-1523-4b7d-bb4d-cd33d3830b10")
@@ -4130,7 +4130,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2421fcd7-1ae5-415e-b84c-b80f75132f0a")
@@ -5223,7 +5223,7 @@
 			(uuid "0bb5cd34-d493-45c4-917f-8c4bd795b455")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11184,18 +11184,7 @@
 			(uuid "85a2910c-2158-4b54-942a-c7d1d821a971")
 		)
 		(embedded_fonts no)
-		(model "PTS526.stp"
-			(offset
-				(xyz 0 0 0.5500000037)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 -90)
-			)
-		)
-		(model "/home/fabien/kicad_share/3dmodels/PTS526.stp"
+		(model "${KIPRJMOD}/packages3D/PTS526_SM15_SMTR2_LFS.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11203,7 +11192,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
